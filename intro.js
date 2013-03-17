@@ -124,7 +124,7 @@
    * @param {Object} targetElement
    */
   function _exitIntro(targetElement) {
-    //remove overlay layer from the page
+    //remove overlay layer from the page.
     var overlayLayer = targetElement.querySelector(".introjs-overlay");
     //for fade-out animation
     overlayLayer.style.opacity = 0;
